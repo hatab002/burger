@@ -1,0 +1,48 @@
+.container{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+body {
+    background-image: url("http://slavosalt.com/wp-content/uploads/2014/03/slavo-clean-your-grill.jpg")
+
+}
+#notDevouredBurg {
+    height: 300px;
+    overflow: auto;
+}
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+.burgerName {
+    font-weight: bold;
+    font-size: 20px;
+}
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.jumbotron {
+    background-image: url("https://image.freepik.com/free-vector/burger-pattern-background_1457-8.jpg")
+}
+.burgerRow {
+    background-image: url("https://craftburgercromer.co.uk/wp-content/uploads/2016/08/Wood-Background-1-1024x700.jpg");
+    color: white;
+}
+#addBurgerDiv{
+    color: white;
+    padding: 15px;
+
+    margin-top: 30px;
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/13091630/thumb/1.jpg")
+}
+label{
+    font-size: 20px;
+}
+#burgerInput {
+    color: black;
+}
