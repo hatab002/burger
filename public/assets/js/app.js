@@ -16,10 +16,13 @@ $("#submitBtn").on("click", (event) => {
         })
     
 });
-$("#devour").on("click", () => {
+$("body").on("click", ".devour", (event) => {
+    event.preventDefault();
     var id = $(this).data("id");
+    console.log($(this))
+    console.log(id)
     var newData = {
-        objColVal : { devoured: 1},
+        devoured: true
     };
     $.ajax(`/burgers/${id}`, {
         type: "PUT",
