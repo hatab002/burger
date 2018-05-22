@@ -20,3 +20,4 @@
 **From the directory that includes the server.js file, you will run node server.js to launch the app**
 
 ## Link to the deployed Heroku app:
+https://burger-handlebars-app.herokuapp.com/
